@@ -13,16 +13,11 @@ A sleek, responsive to-do list built with **React** and powered by **Material-UI
 4. [Installation & Setup](#installation--setup)  
 5. [Usage](#usage)  
 6. [Project Structure](#project-structure)  
-7. [Contributing](#contributing)  
-8. [License](#license)  
-9. [Contact](#contact)
 
 ---
 
 ##  Demo
 
-*Add a screenshot or link to a live version here (host it on GitHub Pages, Netlify, or Vercel).*  
-Visuals speak louder than words—show it off!
 
 ---
 
