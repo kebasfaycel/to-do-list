@@ -54,3 +54,16 @@ git clone https://github.com/kebasfaycel/to-do-list.git
 cd to-do-list
 npm install
 npm start
+```
+## Project Structure
+to-do-list/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI pieces (e.g., TaskItem, TaskList)
+│   ├── App.js            # App root with routing (if any)
+│   ├── index.js          # Entry point
+│   └── styles/           # Custom styles or theme overrides
+├── .gitignore
+├── package.json
+└── README.md
+
