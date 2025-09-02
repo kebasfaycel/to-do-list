@@ -50,8 +50,10 @@ cd to-do-list
 npm install
 npm start
 ```
-```bash
+
 ## Project Structure
+
+```bash
 to-do-list/
 ├── public/
 ├── src/
