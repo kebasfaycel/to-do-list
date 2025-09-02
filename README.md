@@ -7,16 +7,20 @@ A sleek, responsive to-do list built with **React** and powered by **Material-UI
 
 ##  Table of Contents
 
-1. [Demo](#demo)  
-2. [Features](#features)  
-3. [Tech Stack](#tech-stack)  
-4. [Installation & Setup](#installation--setup)  
-5. [Usage](#usage)  
-6. [Project Structure](#project-structure)  
+1. [Demo](#demo)
+2. [Preview](#preview)
+3. [Features](#features)  
+4. [Tech Stack](#tech-stack)  
+5. [Installation & Setup](#installation--setup)  
+6. [Usage](#usage)  
+7. [Project Structure](#project-structure)  
 
 ---
 
 ##  Demo
+https://papaya-custard-f3f242.netlify.app/
+
+## 🖼️ Preview
 
 ![App Screenshot](./public/todo.png)
 
