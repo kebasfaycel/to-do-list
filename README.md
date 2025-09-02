@@ -55,6 +55,7 @@ cd to-do-list
 npm install
 npm start
 ```
+```bash
 ## Project Structure
 to-do-list/
 ├── public/
