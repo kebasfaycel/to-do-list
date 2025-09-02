@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MyTODoList from "./components/MyToDoList";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { blue, purple } from "@mui/material/colors";
+import "@fontsource/nunito"; // defaults to 400
+import { SnackBarProvider } from "./contexts/SnackBarContext";
+import { TodosProvider } from "./contexts/TodoContext";
+const theme = createTheme({
+  typography: {
+    fontFamily: "nunito",
+  },
+  palette: {
+    primary: {
+      main: blue[500],
+    },
+    secondary: {
+      main: purple[500],
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <TodosProvider>
+        <SnackBarProvider>
+          <div className="App">
+            <MyTODoList />
+          </div>
+        </SnackBarProvider>
+      </TodosProvider>
+    </ThemeProvider>
   );
 }
 
