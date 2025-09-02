@@ -40,10 +40,6 @@ https://papaya-custard-f3f242.netlify.app/
 - **React** – Front-end library for building UI  
 - **@mui/material** & **@emotion/react**/**@emotion/styled** – Material-UI components and styling  
 - **JavaScript (ES6+)**, **HTML5**, **CSS3** – Core web technologies  
-- **Optional Extras**:  
-  - **PropTypes** – For type-checking props  
-  - **React Router** – For future routing needs  
-  - **LocalStorage** – To persist your list between sessions
 
 ---
 
